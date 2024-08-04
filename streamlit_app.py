@@ -31,4 +31,4 @@ class VideoTransformer(VideoTransformerBase):
 st.title("Webcam Stream with YOLOv8 Object Detection")
 
 # เรียกใช้ webrtc_streamer เพื่อเปิดกล้อง
-webrtc_streamer(key="example", video_transformer_factory=VideoTransformer)
+webrtc_streamer(key="example", video_processor_factory=VideoTransformer)
