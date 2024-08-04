@@ -1,5 +1,4 @@
 av
 opencv-python-headless==4.5.1.48
-numpy
 streamlit_webrtc
 ultralytics
