@@ -28,7 +28,8 @@ def process(image):
     #         mp_drawing_styles.get_default_hand_connections_style())
     return cv2.flip(image, 1)
 RTC_CONFIGURATION = RTCConfiguration(
-    {"iceServers": [{"urls": ["stun:stun.l.google.com:19302"]}]}
+    # {"iceServers": [{"urls": ["stun:stun.l.google.com:19302"]}]} 
+    {"iceServers": [{"urls": ["stun:stun.cloudflare.com:3478"]}]}
 )
 class VideoProcessor:
     def recv(self, frame):
