@@ -1,1 +1,5 @@
 av
+opencv-python
+numpy
+streamlit_webrtc
+ultralytics
